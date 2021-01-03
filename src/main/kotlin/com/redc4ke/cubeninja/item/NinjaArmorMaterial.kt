@@ -1,11 +1,15 @@
 package com.redc4ke.cubeninja.item
 
+import com.redc4ke.cubeninja.CubeNinja
+import com.redc4ke.cubeninja.RegisterItems
 import net.minecraft.entity.EquipmentSlot
 import net.minecraft.item.ArmorMaterial
 import net.minecraft.recipe.Ingredient
 import net.minecraft.sound.SoundEvent
+import net.minecraft.sound.SoundEvents
+import net.minecraft.text.TranslatableText
 
-class BlackFabricMaterial: ArmorMaterial {
+class NinjaArmorMaterial: ArmorMaterial {
     private val baseDurability = arrayListOf<Int>(13, 15, 16, 11)
     private val protectionValues = arrayListOf<Int>(1, 2, 3, 2)
 
@@ -18,26 +22,26 @@ class BlackFabricMaterial: ArmorMaterial {
     }
 
     override fun getEnchantability(): Int {
-        TODO("Not yet implemented")
+        return 20
     }
 
     override fun getEquipSound(): SoundEvent {
-        TODO("Not yet implemented")
+        return SoundEvents.ITEM_ARMOR_EQUIP_LEATHER
     }
 
     override fun getRepairIngredient(): Ingredient {
-        TODO("Not yet implemented")
+        return Ingredient.ofItems(RegisterItems.BLACK_FABRIC)
     }
 
     override fun getName(): String {
-        TODO("Not yet implemented")
+        return "black_fabric"
     }
 
     override fun getToughness(): Float {
-        TODO("Not yet implemented")
+        return 1.0F
     }
 
     override fun getKnockbackResistance(): Float {
-        TODO("Not yet implemented")
+        return 0F
     }
 }

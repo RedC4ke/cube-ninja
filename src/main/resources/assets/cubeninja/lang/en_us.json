@@ -1,0 +1,15 @@
+{
+  "itemGroup.cubeninja.main": "Cube Ninja",
+
+  "item.cubeninja.black_fabric": "Black Fabric",
+  "item.cubeninja.black_fabric.tooltip_1": "A small sheet of black-dyed fabric.",
+  "item.cubeninja.black_fabric.tooltip_2": "I wonder what could be made out of it?",
+
+  "item.cubeninja.ninja_hood" : "Ninja Hood",
+
+  "item.cubeninja.ninja_shirt" : "Ninja Shirt",
+
+  "item.cubeninja.ninja_pants" : "Ninja Pants",
+
+  "item.cubeninja.ninja_slippers" : "Ninja Slippers"
+}
