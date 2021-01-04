@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "F F",
+    "F F"
+  ],
+  "key": {
+    "F": {
+      "item": "cubeninja:black_fabric"
+    }
+  },
+  "result": {
+    "item": "cubeninja:ninja_slippers",
+    "count": 1
+  }
+}

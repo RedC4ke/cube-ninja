@@ -1,13 +1,11 @@
 package com.redc4ke.cubeninja.item
 
-import com.redc4ke.cubeninja.CubeNinja
-import com.redc4ke.cubeninja.RegisterItems
+import com.redc4ke.cubeninja.register.Items
 import net.minecraft.entity.EquipmentSlot
 import net.minecraft.item.ArmorMaterial
 import net.minecraft.recipe.Ingredient
 import net.minecraft.sound.SoundEvent
 import net.minecraft.sound.SoundEvents
-import net.minecraft.text.TranslatableText
 
 class NinjaArmorMaterial: ArmorMaterial {
     private val baseDurability = arrayListOf<Int>(13, 15, 16, 11)
@@ -30,7 +28,7 @@ class NinjaArmorMaterial: ArmorMaterial {
     }
 
     override fun getRepairIngredient(): Ingredient {
-        return Ingredient.ofItems(RegisterItems.BLACK_FABRIC)
+        return Ingredient.ofItems(Items.BLACK_FABRIC)
     }
 
     override fun getName(): String {

@@ -5,6 +5,12 @@
   "item.cubeninja.black_fabric.tooltip_1": "A small sheet of black-dyed fabric.",
   "item.cubeninja.black_fabric.tooltip_2": "I wonder what could be made out of it?",
 
+  "item.cubeninja.tengu_feather": "Tengu Feather",
+  "item.cubeninja.tengu_feather.tooltip_1": "Smells like thunder.",
+
+  "item.cubeninja.tengu_feather_red": "Red Tengu Feather",
+  "item.cubeninja.tengu_feather_red.tooltip_1": "Super hot.",
+
   "item.cubeninja.ninja_hood" : "Ninja Hood",
 
   "item.cubeninja.ninja_shirt" : "Ninja Shirt",

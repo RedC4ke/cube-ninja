@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FRF",
+    "   "
+  ],
+  "key": {
+    "F": {
+      "item": "cubeninja:black_fabric"
+    },
+    "R": {
+      "item": "cubeninja:tengu_feather_red"
+    }
+  },
+  "result": {
+    "item": "cubeninja:ninja_mask",
+    "count": 1
+  }
+}
